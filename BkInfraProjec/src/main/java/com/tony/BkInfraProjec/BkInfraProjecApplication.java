@@ -1,13 +1,14 @@
-package com.tony.infraProjc;
+package com.tony.BkInfraProjec;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class InfraProjcApplication {
+public class BkInfraProjecApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(InfraProjcApplication.class, args);
+		SpringApplication.run(BkInfraProjecApplication.class, args);
+                System.out.print("hola mundo");
 	}
 
 }
